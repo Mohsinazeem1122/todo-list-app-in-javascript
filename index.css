@@ -61,3 +61,12 @@ li {
   text-decoration: line-through;
   color: grey;
 }
+.remove-btn {
+  background-color: #ff6b6b;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
