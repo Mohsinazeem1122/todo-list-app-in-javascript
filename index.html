@@ -27,6 +27,13 @@
         }
 
         taskList.appendChild(li);
+
+        var removeButton = document.createElement("button");
+        removeButton.textContent = "Remove";
+        removeButton.className = "remove-btn";
+        removeButton.onclick = function () {
+          taskList.removeChild(li);
+        };
       }
     </script>
   </body>
